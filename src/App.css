@@ -1,5 +1,71 @@
 .App {
-  text-align: center;
+  
+  background-color: red;
+  height: 400px;
+  width: 400px;
+
+
+}
+.semaforo{
+  height: 350px;
+  width: 150px;
+  transform: translate(20%,0%);
+  border-radius: 15px;
+  background-color: black;
+}
+div .on {
+  opacity: 1;
+}
+
+div .off {
+  opacity: 0.4;
+}
+
+.rojoTrue {
+  height: 90px;
+  width: 90px;
+  transform: translate(35%,10%);
+  border-radius: 50px;
+  background-color: red;
+}
+.rojoFalse {
+  height: 90px;
+  width: 90px;
+  transform: translate(35%,10%);
+  border-radius: 50px;
+  background-color: darkred;
+}
+.amarilloTrue{
+  height: 90px;
+  width: 90px;
+  transform: translate(35%,40%);
+  border-radius: 50px;
+  background-color: yellow;
+
+}
+.amarilloFalse{
+  height: 90px;
+  width: 90px;
+  transform: translate(35%,40%);
+  border-radius: 50px;
+  background-color: #9B870C;
+
+}
+.verdeTrue{
+  height: 90px;
+  width: 90px;
+  transform: translate(35%,70%);
+  border-radius: 50px;
+  background-color: green;
+
+}
+.verdeFalse{
+  height: 90px;
+  width: 90px;
+  transform: translate(35%,70%);
+  border-radius: 50px;
+  background-color: #013220;
+
 }
 
 .App-logo {
