@@ -8,12 +8,7 @@ import Contenido from './Contenido';
 class App extends React.Component{
   constructor(){
     super();
-    
-
-
   };
-
-
 
     render(){
       return(
